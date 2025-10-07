@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ENAM SOLUTIONS COMPANY LLC — Cybersecurity Consulting</title>
+<meta name="description" content="ENAM SOLUTIONS COMPANY LLC provides cybersecurity consulting: risk assessments, penetration testing, incident response, security architecture, compliance and training." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b1220;
+  --card:#0f1724;
+  --muted:#97a0b3;
+  --accent:#00c2ff;
+  --accent-2:#6ee7b7;
+  --white:#e6eef6;
+  --glass: rgba(255,255,255,0.03);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter,system-ui,Arial;background:linear-gradient(180deg,var(--bg),#071024);color:var(--white);-webkit-font-smoothing:antialiased}
+.container{max-width:1100px;margin:0 auto;padding:28px}
+.header{
+  min-height:72vh;display:flex;align-items:center;
+  border-radius:12px;padding:48px;background:linear-gradient(135deg, rgba(0,194,255,0.06), rgba(110,231,183,0.03));
+  gap:32px;margin-top:20px;
+}
+.header-left{flex:1}
+.h-eyebrow{color:var(--accent-2);font-weight:600;letter-spacing:1px}
+.h-title{font-size:clamp(28px,4vw,48px);margin:12px 0 16px;line-height:1.03}
+.h-desc{color:var(--muted);max-width:60ch;margin-bottom:22px}
+.cta-row{display:flex;gap:12px;flex-wrap:wrap}
+.btn{background:var(--accent);color:#032;padding:12px 18px;border-radius:8px;text-decoration:none;font-weight:600}
+.btn-ghost{background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--white);padding:12px 18px;border-radius:8px;text-decoration:none}
+.header-right{width:420px;min-width:260px;display:flex;justify-content:center;align-items:center}
+.hero-card{background:var(--card);padding:22px;border-radius:14px;box-shadow:0 8px 24px rgba(2,6,23,0.6);width:100%}
+.kpis{display:flex;gap:12px;flex-wrap:wrap;justify-content:space-between;margin-top:16px}
+.kpi{flex:1;min-width:120px;background:var(--glass);padding:12px;border-radius:10px;text-align:center}
+.section{margin:56px 0}
+.section h2{font-size:20px;margin-bottom:18px}
+.grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{background:var(--card);padding:22px;border-radius:12px}
+.service-icon{width:56px;height:56px;display:inline-flex;align-items:center;justify-content:center;border-radius:10px;background:linear-gradient(135deg, rgba(0,194,255,0.08), rgba(110,231,183,0.04));margin-bottom:12px}
+.card h3{margin:8px 0 8px}
+.muted{color:var(--muted);font-size:15px}
+.timeline{display:flex;flex-direction:column;gap:12px}
+.timeline .item{background:linear-gradient(90deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));padding:16px;border-radius:10px;border-left:4px solid var(--accent)}
+.contact-grid{display:grid;grid-template-columns:1fr 360px;gap:22px;align-items:start}
+.form input,.form textarea{width:100%;padding:12px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--white);margin-bottom:12px}
+.form button{background:var(--accent);color:#032;padding:12px 14px;border-radius:8px;border:none;font-weight:700;cursor:pointer}
+.footer{padding:18px 0;color:var(--muted);text-align:center;margin-top:40px;font-size:14px}
+.nav{display:flex;gap:14px;align-items:center}
+.logo{font-weight:700;color:var(--accent);letter-spacing:0.6px}
+@media (max-width:820px){
+  .header{flex-direction:column; padding:24px}
+  .contact-grid{grid-template-columns:1fr}
+  .header-right{width:100%}
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <header class="nav" aria-label="Top navigation">
+    <div class="logo">ENAM SOLUTIONS</div>
+    <nav style="margin-left:auto">
+      <a href="#services" style="color:var(--muted);text-decoration:none;margin-right:12px">Services</a>
+      <a href="#clients" style="color:var(--muted);text-decoration:none;margin-right:12px">Clients</a>
+      <a href="#contact" style="color:var(--muted);text-decoration:none">Contact</a>
+    </nav>
+  </header>
+
+  <section class="header" role="banner">
+    <div class="header-left">
+      <div class="h-eyebrow">CYBERSECURITY CONSULTING</div>
+      <h1 class="h-title">Protecting your business from modern cyber threats — with clarity and speed.</h1>
+      <p class="h-desc">ENAM SOLUTIONS COMPANY LLC provides risk assessments, penetration testing, incident response, security architecture, compliance, and training for organizations of all sizes. We combine proven frameworks and practical remediation so you can focus on growth securely.</p>
+      <div class="cta-row">
+        <a class="btn" href="#contact">Get a Consultation</a>
+        <a class="btn-ghost" href="#services">Our Services</a>
+      </div>
+
+      <div class="kpis" aria-hidden="true">
+        <div class="kpi"><strong>100+</strong><div class="muted">Systems Assessed</div></div>
+        <div class="kpi"><strong>50+</strong><div class="muted">Pen tests completed</div></div>
+        <div class="kpi"><strong>99%</strong><div class="muted">Client satisfaction</div></div>
+      </div>
+    </div>
+
+    <aside class="header-right" aria-hidden="true">
+      <div class="hero-card">
+        <h3 style="margin:0 0 8px">Why ENAM?</h3>
+        <p class="muted" style="margin-bottom:12px">Fast, practical remediation plans. Experienced consultants. Clear reporting for executives and engineers.</p>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+          <div style="font-size:13px" class="muted">HIPAA • GDPR • PCI DSS</div>
+          <div style="font-size:13px" class="muted">Retainer & Incident Response</div>
+        </div>
+      </div>
+    </aside>
+  </section>
+
+  <section id="services" class="section" aria-labelledby="services">
+    <h2>Our Services</h2>
+    <div class="grid">
+      <div class="card">
+        <div class="service-icon"><img src="https://img.icons8.com/ios-filled/50/00c2ff/shield.png" alt="" /></div>
+        <h3>Risk Assessment & Audits</h3>
+        <p class="muted">Identify vulnerabilities in networks, applications, and systems with prioritized remediation plans.</p>
+      </div>
+      <div class="card">
+        <div class="service-icon"><img src="https://img.icons8.com/ios-filled/50/00c2ff/policy.png" alt="" /></div>
+        <h3>Security Strategy & Compliance</h3>
+        <p class="muted">Develop policies and controls to meet HIPAA, GDPR, PCI DSS and industry best-practice frameworks.</p>
+      </div>
+      <div class="card">
+        <div class="service-icon"><img src="https://img.icons8.com/ios-filled/50/00c2ff/hacking.png" alt="" /></div>
+        <h3>Penetration Testing</h3>
+        <p class="muted">Simulate real-world attacks (external, internal, web, mobile) and verify the effectiveness of controls.</p>
+      </div>
+      <div class="card">
+        <div class="service-icon"><img src="https://img.icons8.com/ios-filled/50/00c2ff/network.png" alt="" /></div>
+        <h3>Security Architecture & Implementation</h3>
+        <p class="muted">Design secure network and cloud architectures, encryption, and identity controls.</p>
+      </div>
+      <div class="card">
+        <div class="service-icon"><img src="https://img.icons8.com/ios-filled/50/00c2ff/incident-response.png" alt="" /></div>
+        <h3>Incident Response & Forensics</h3>
+        <p class="muted">Rapid containment, investigation, and recovery with forensic analysis and actionable reports.</p>
+      </div>
+      <div class="card">
+        <div class="service-icon"><img src="https://img.icons8.com/ios-filled/50/00c2ff/training.png" alt="" /></div>
+        <h3>Training & Awareness</h3>
+        <p class="muted">Security training, phishing simulations, and tabletop exercises tailored to your organization.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="clients" class="section" aria-labelledby="clients">
+    <h2>Who we serve</h2>
+    <div class="grid">
+      <div class="card"><h3>Small & Medium Businesses</h3><p class="muted">Startups and SMBs that need practical, affordable security.</p></div>
+      <div class="card"><h3>Large Corporations</h3><p class="muted">Enterprises in finance, tech, and manufacturing seeking mature programs.</p></div>
+      <div class="card"><h3>Healthcare Providers</h3><p class="muted">Hospitals and clinics requiring HIPAA-compliant controls and audits.</p></div>
+      <div class="card"><h3>Government & Public Sector</h3><p class="muted">Municipal and state agencies with critical infrastructure needs.</p></div>
+      <div class="card"><h3>Financial Institutions</h3><p class="muted">Banks, fintech, and insurers protecting transactions and PII.</p></div>
+    </div>
+  </section>
+
+  <section id="goals" class="section" aria-labelledby="goals">
+    <h2>Business Goals</h2>
+    <div class="timeline">
+      <div class="item"><strong>Short-Term (0–12 months)</strong><div class="muted">Establish brand, website, acquire first 5–10 clients, and build standard processes.</div></div>
+      <div class="item"><strong>Medium-Term (1–3 years)</strong><div class="muted">Expand into AI threat intelligence, target larger clients, and retain recurring contracts.</div></div>
+      <div class="item"><strong>Long-Term (3–5 years)</strong><div class="muted">Offer proprietary detection tools, certifications, and national recognition.</div></div>
+    </div>
+  </section>
+
+  <section id="contact" class="section" aria-labelledby="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-grid">
+      <div class="card form" style="background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent)">
+        <form action="https://formspree.io/f/{your_form_id}" method="POST" aria-label="Contact form">
+          <label for="name" class="muted">Full name</label>
+          <input id="name" name="name" type="text" required />
+          <label for="email" class="muted">Email</label>
+          <input id="email" name="email" type="email" required />
+          <label for="message" class="muted">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <input type="hidden" name="phone" value="+1 (313) 652-4557" />
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <aside class="card" aria-label="Contact details">
+        <h3>Get in touch</h3>
+        <p class="muted">Phone: <strong>+1 (313) 652-4557</strong></p>
+        <p class="muted">Email: <strong>info@enamsolutions.com</strong></p>
+        <p class="muted">Location: United States</p>
+        <div style="margin-top:12px"><a class="btn" href="tel:+13136524557">Call Now</a></div>
+      </aside>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div>Follow us: <a href="#" style="color:var(--accent)">LinkedIn</a> · <a href="#" style="color:var(--accent)">Twitter</a></div>
+    <div style="margin-top:8px">&copy; 2025 ENAM SOLUTIONS COMPANY LLC. All Rights Reserved.</div>
+  </footer>
+</div>
+
+<!-- Minimal JS for accessibility enhancements -->
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click', e=>{
+    const id = a.getAttribute('href').slice(1);
+    const el = document.getElementById(id);
+    if(el){ el.scrollIntoView({behavior:'smooth',block:'start'}); e.preventDefault(); }
+  });
+});
+</script>
+
+</body>
+</html>
